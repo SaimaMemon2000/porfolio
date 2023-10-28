@@ -1,0 +1,354 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url(tree-736885_1920.jpg);
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.logo{
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
+    color: red;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 25px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: #f9004d;
+    transition: 0.4s;
+}
+.btn{
+    background-color:#f9004d;
+    color: white;
+    text-decoration: none;
+border: 2px solid transparent;
+font-weight: bold;
+padding: 10px 25px;
+border-radius: 30px;
+transition: .4s;
+}
+.btn:hover{
+    transform: scale(1.2);
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}    
+.content h1{
+    color: white;
+    margin: 20px 0 20px;
+    font-size: 75px;
+}   
+.content h3{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+.content h4{
+    color: #fcfc;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.newslatter form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+.newslatter form input:first-child{
+display: inline-block;
+width: 100%;
+padding: 14px 130px 14px 15px;
+border: 2px solid #f9004d;
+outline: none;
+border-radius: 30px;
+}
+.newslatter form input:last-child{
+    position: absolute;
+    border: 0;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: #f9004d;
+    color: white;
+    box-shadow: 0px, 0px, 5px, #000,0px, 0px ,15px, #858585;
+top: 6px;
+right:6px;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+    background-color: #000;
+}
+footer ul li {
+    list-style: none;
+    display: inline-flex;
+    padding: 10px 25px;
+    margin-left: 50px;
+}
+footer ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.content2 h1{
+    
+   
+text-align: center;
+    font-family: Helvetica;
+    margin-top: 55px;
+
+}
+.content2 h4{
+    text-align: center;
+    font-family: Helvetica;
+}
+
+
+.box{
+    margin-top: 40px;
+    align-items: center;
+   
+    
+
+    
+    
+   
+}
+
+
+#box2{
+    width: 200px;
+    background-color: #000000;
+    color: white;
+    height: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 35px;
+    margin-right: 70px ;
+    margin-left: 150px;
+ float: left;
+ justify-content: space-between;
+}
+#box3{
+    width: 200px;
+    background-color: #000000;
+    height: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    padding: 10px 25px;
+    margin-right: 70px;
+    float: left;
+    justify-content: space-between;
+    
+
+}
+#box4{
+    width: 200px;
+    background-color: #000000;
+    height: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    padding: 10px 25px;
+    margin-right: 70px;
+    float: left;
+}
+#box5{
+    width: 200px;
+    background-color: #000000;
+    height: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    padding: 10px 25px;
+    margin-right: 70px;
+    float: left;
+    justify-content: space-between;
+}
+.card{
+    margin-top: 50px;
+}
+#card1{
+    width: 300px;
+    height: 230px;
+   background-color: rgb(0, 0, 0);
+   color: white;
+   font-size: 15px;
+   font-weight: bold;
+float: left;
+margin-right: 70px;
+padding: 10px 15px;
+margin-left: 70px;
+}
+#card2{
+    width: 300px;
+    height: 230px;
+   background-color: rgb(0, 0, 0);
+   color: white;
+   font-size: 15px;
+   font-weight: bold;
+float: left;
+margin-right: 70px;
+padding: 10px 15px;
+}
+#card3{
+    width: 300px;
+    height: 230px;
+   background-color: rgb(0, 0, 0);
+   color: white;
+   font-size: 15px;
+   font-weight: bold;
+float: left;
+margin-right: 70px;
+padding: 10px 15px;
+}
+#card4{
+    width: 300px;
+    height: 230px;
+   background-color: rgb(0, 0, 0);
+   color: white;
+   font-size: 15px;
+   font-weight: bold;
+float: left;
+margin-right: 70px;
+padding: 10px 15px;
+}
+.form{
+    width: 320px;
+    height: 450px;
+    background-color: #000;
+  align-items: center;
+    justify-content: center;
+    border-radius:10px;
+    padding:25px;
+    margin-left: 40%;
+    margin-top: 55px;
+}
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    color: #ff7200;
+    background: #fff;
+    text-align: center;
+    font-size:22px;
+    border-radius:10px;
+    margin:2px;
+    padding:8px;
+
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #ff7200;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif
+}
+.form:focus{
+    outline: none;
+
+}
+::placeholder{
+    color:#fff;
+    font-family:Arial;
+}
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+}
+.btnn:hover{
+    background:#fff;
+    color: #ff7200;
+}
+.btnn a{
+    text-decoration: none;
+    color:#000;
+    font-weight:bold;
+    
+
+}
+.form .link{
+    font-family: Arial;
+    font-size: 17px;
+    padding-top:20px;
+    text-align:center;
+    color:#fff;
+
+}
+.form .link a{
+    text-decoration:none;
+    color:#ff7200;
+} 
+.liw{
+    padding-top:15px;
+    padding-bottom:10px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-family: Arial;
+}
+.icons a{
+    text-decoration: none;
+    color:#fff;
+}
+.icons ion-icon{
+    color: #fff;
+    font-size:30px;
+    padding-left:14px;
+    padding-top:5px;
+    transition:0.3s ease;
+}
+.icons ion-icon:hover{
+    color:#ff7200;}
+    
+  
